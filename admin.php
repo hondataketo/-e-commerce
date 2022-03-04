@@ -71,7 +71,7 @@ if(isset($_GET['cart_id'])){
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     </head>
-        <body class="bg-warning">
+        <body class="bg-success">
             <div class="container p-5">
                 <div class="card w-50 mx-auto">
                     <div class="card-header text-center">
@@ -168,6 +168,7 @@ if(isset($_GET['cart_id'])){
                             <div class="table-responsive table-borderless">
                                 <table class="table">
                                     <thead>
+                                       <h1 class="text-center text-light">Purchase History</h1>
                                         <tr>
                                             <th class="text-center">No.</th>
                                             <th class="text-center">Cart ID</th>
@@ -219,6 +220,7 @@ if(isset($_GET['cart_id'])){
                             <div class="table-responsive table-borderless">
                                 <table class="table">
                                     <thead>
+                                    <h1 class="text-center text-light">Cart</h1>
                                         <tr>
                                             <th class="text-center">No.</th>
                                             <th class="text-center">Cart ID</th>
